@@ -13,7 +13,7 @@
 
 <img width="1920" height="1080" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/faf02d3e-6784-449e-97fc-b0f8385196b2" />
 
-## 📘 Overview
+## Overview
 
 DeckChain brings the mechanics of physical card decks into the blockchain world.  
 Users can **create unique cards**, group them into **decks**, and **shuffle/draw** cards transparently using smart contracts.
@@ -26,7 +26,7 @@ It’s perfect for:
 
 ---
 
-## ⚙️ Features
+##Features
 
 ✅ Create unique cards with metadata (IPFS or JSON URIs)  
 ✅ Create and own multiple decks  
@@ -37,9 +37,9 @@ It’s perfect for:
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
-### 1️⃣ Create Cards
+### Create Cards
 ```solidity
 uint256 card1 = createCard("Fire Dragon", "ipfs://Qm123");
 uint256 card2 = createCard("Water Spirit", "ipfs://Qm456");
